@@ -1,7 +1,6 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset"
-import ToDo from "./components/Todo"
-
+import ToDo from "./components/ToDo"
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
@@ -20,6 +19,7 @@ a {
   color:inherit;
 }
 `
+
 
 function App() {
   return (

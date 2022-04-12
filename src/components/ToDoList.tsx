@@ -1,5 +1,5 @@
 import { useRecoilValue } from "recoil"
-import { categoryState, toDoSelector } from "../atoms"
+import { toDoSelector } from "../atoms"
 import ToDoItem from "./ToDoItem"
 
 
